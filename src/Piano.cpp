@@ -5,7 +5,7 @@
 // Login   <brunie_j@epitech.net>
 //
 // Started on  Tue May 14 21:50:54 2013 Brunier Jean
-// Last update Wed May 15 09:09:38 2013 Brunier Jean
+// Last update Wed May 15 15:39:59 2013 Brunier Jean
 //
 
 #include "Piano.hh"
@@ -100,6 +100,20 @@ Piano::Piano(int pattern) : _sound(new Sound())
       _keys[1][5] = SDLK_QUOTE;
       _keys[1][6] = SDLK_RIGHTBRACKET;
       _keys[1][7] = SDLK_BACKSLASH;
+      _keys[1][9] = SDLK_LESS;
+      _keys[1][11] = SDLK_z;
+
+      _keys[2][0] = SDLK_x;
+      _keys[2][2] = SDLK_c;
+      _keys[2][4] = SDLK_v;
+      _keys[2][5] = SDLK_b;
+      _keys[2][7] = SDLK_n;
+      _keys[2][9] = SDLK_m;
+      _keys[2][11] = SDLK_COMMA;
+
+      _keys[3][0] = SDLK_PERIOD;
+      _keys[3][2] = SDLK_SLASH;
+      _keys[3][4] = SDLK_LSHIFT;
     }
   else if (pattern == 2)
     {
